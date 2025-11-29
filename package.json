@@ -1,0 +1,48 @@
+{
+  "name": "@degreesign/utils",
+  "version": "1.0.0",
+  "main": "dist/node/degreesign.node.min.js",
+  "module": "dist/node/degreesign.node.min.js",
+  "browser": "dist/browser/degreesign.min.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "webpack"
+  },
+  "keywords": [
+    "web dev tools",
+    "mobile dev tools",
+    "utils sdk",
+    "degreesign"
+  ],
+  "author": "Prince Hasn",
+  "homepage": "https://github.com/DegreeSign/ds_utils#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DegreeSign/ds_utils.git"
+  },
+  "bugs": {
+    "url": "https://github.com/DegreeSign/ds_utils/issues"
+  },
+  "license": "MIT",
+  "description": "DegreeSign Utils SDK is developers dream utils",
+  "devDependencies": {
+    "@types/node": "^22.10.2",
+    "@types/webpack-bundle-analyzer": "^4.7.0",
+    "clean-webpack-plugin": "^4.0.0",
+    "esbuild": "^0.24.2",
+    "terser-webpack-plugin": "^5.3.11",
+    "ts-loader": "^9.5.1",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.7.2",
+    "webpack": "^5.97.1",
+    "webpack-bundle-analyzer": "^4.10.2",
+    "webpack-cli": "^6.0.1",
+    "webpack-dev-server": "^5.2.0"
+  },
+  "dependencies": {
+    "node-fetch": "^3.3.2"
+  },
+  "files": [
+    "dist/"
+  ]
+}
