@@ -11,7 +11,7 @@ OR use in browsers through CDN
 
 ```html
 <script 
-  src="https://cdn.jsdelivr.net/npm/@degreesign/utils@1.0.0/dist/browser/degreesign.min.js"
+  src="https://cdn.jsdelivr.net/npm/@degreesign/utils@1.0.1/dist/browser/degreesign.min.js"
 ></script>
 ```
 
