@@ -1,4 +1,3 @@
-
 interface NumberObj {
     [key: string]: number
 };

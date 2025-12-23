@@ -1,6 +1,6 @@
 {
   "name": "@degreesign/utils",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "main": "dist/node/degreesign.node.min.js",
   "module": "dist/node/degreesign.node.min.js",
   "browser": "dist/browser/degreesign.min.js",
@@ -39,9 +39,7 @@
     "webpack-cli": "^6.0.1",
     "webpack-dev-server": "^5.2.0"
   },
-  "dependencies": {
-    "node-fetch": "^3.3.2"
-  },
+  "dependencies": {},
   "files": [
     "dist/"
   ]
