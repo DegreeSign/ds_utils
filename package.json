@@ -1,6 +1,6 @@
 {
   "name": "@degreesign/utils",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "main": "dist/node/degreesign.node.min.js",
   "module": "dist/node/degreesign.node.min.js",
   "browser": "dist/browser/degreesign.min.js",
@@ -9,6 +9,23 @@
     "build": "webpack"
   },
   "keywords": [
+    "typescript",
+    "javascript",
+    "utils",
+    "utilities",
+    "sdk",
+    "zero-dependency",
+    "array-utils",
+    "number-formatting",
+    "statistics",
+    "forecasting",
+    "date-utils",
+    "time-utils",
+    "object-utils",
+    "id-generator",
+    "encryption",
+    "browser",
+    "nodejs",
     "web dev tools",
     "mobile dev tools",
     "utils sdk",
@@ -24,7 +41,7 @@
     "url": "https://github.com/DegreeSign/ds_utils/issues"
   },
   "license": "MIT",
-  "description": "DegreeSign Utils SDK is developers dream utils",
+  "description": "Zero-dependency TypeScript utility SDK for numbers, arrays, statistics, forecasting, dates, objects, secure IDs and crypto - one import for browser and Node.js.",
   "devDependencies": {
     "@types/node": "^22.10.2",
     "@types/webpack-bundle-analyzer": "^4.7.0",
