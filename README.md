@@ -55,7 +55,7 @@ Or load it in the browser straight from a CDN:
 
 ```html
 <script 
-  src="https://cdn.jsdelivr.net/npm/@degreesign/utils@1.0.3/dist/browser/degreesign.min.js"
+  src="https://cdn.jsdelivr.net/npm/@degreesign/utils@1.0.4/dist/browser/degreesign.min.js"
 ></script>
 ```
 
@@ -143,7 +143,7 @@ Timestamps, duration constants and human-readable date formats (UTC where noted)
 | `addZ(n)` | Zero-pad a number to two digits. |
 | `dateStandard(d)` | ISO date `2022-06-23`. |
 | `timeStandard(dt)` | Time `16:36:14`. |
-| `seoDt(t)` | SEO/ISO datetime `2022-06-23T16:36:14+01:00`. |
+| `seoDt(t)` | SEO/ISO datetime in UTC `2022-06-23T16:36:14Z`. |
 | `thisYear(e)` | Current (or given) UTC year. |
 | `invDt(t)` | Invoice-style stamp, e.g. `220623...`. |
 | `tmUTC(t)` / `tmAP(t)` | `15:44 UTC` / `02:15pm` times. |

@@ -17,8 +17,8 @@ thisYear: (e?: number | string) => number,
 /** Date Standard 2022-06-23 */
 dateStandard: (d: string | number | Date) => DateString, 
 /** Time Standard 16:36:14 */
-timeStandard: (dt: Date) => string, 
-/**  SEO date: '2022-06-23T16:36:14+01:00' */
+timeStandard: (dt: Date) => string, // seconds
+/**  SEO date: '2022-06-23T16:36:14Z' */
 seoDt: (t?: number | string | Date) => string, 
 /** invoice #22 06 23 109 */
 invDt: (t: string | number | Date) => string;

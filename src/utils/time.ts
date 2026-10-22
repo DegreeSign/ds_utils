@@ -89,17 +89,15 @@ const
         return `${dt.getUTCFullYear()}-${addZ(dt.getUTCMonth() + 1)}-${addZ(dt.getUTCDate())}`
     },
     /** Time Standard 16:36:14 */
-    timeStandard = (dt: Date) => {
-        const hr = dt.getUTCHours() + 1;
-        return addZ(hr < 0 ? 24 + hr : hr) // hours
-            + `:${addZ(dt.getUTCMinutes())}`  // minutes
-            + `:${addZ(dt.getUTCSeconds())}`  // seconds
-    },
-    /**  SEO date: '2022-06-23T16:36:14+01:00' */
+    timeStandard = (dt: Date) =>
+        addZ(dt.getUTCHours()) // hours
+        + `:${addZ(dt.getUTCMinutes())}`  // minutes
+        + `:${addZ(dt.getUTCSeconds())}`, // seconds
+    /**  SEO date: '2022-06-23T16:36:14Z' */
     seoDt = (t?: number | string | Date) => {
         !t && (t = tN()); // use current time
         const dt = new Date(t);
-        return `${dateStandard(dt)}T${timeStandard(dt)}+01:00`;
+        return `${dateStandard(dt)}T${timeStandard(dt)}Z`;
     },
     /** invoice #22 06 23 109 */
     invDt = (t: string | number | Date) => {
