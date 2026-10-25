@@ -25,6 +25,7 @@ anywhere JavaScript does — browsers, Node.js, React, Vue, Svelte and vanilla p
 - [IDs & Crypto](#ids--crypto)
 - [API Helpers](#api-helpers)
 - [TypeScript Types](#typescript-types)
+- [Architecture](#architecture)
 - [FAQ](#faq)
 - [Keywords](#keywords)
 - [License](#license)
@@ -55,7 +56,7 @@ Or load it in the browser straight from a CDN:
 
 ```html
 <script 
-  src="https://cdn.jsdelivr.net/npm/@degreesign/utils@1.0.4/dist/browser/degreesign.min.js"
+  src="https://cdn.jsdelivr.net/npm/@degreesign/utils@1.0.5/dist/browser/degreesign.min.js"
 ></script>
 ```
 
@@ -172,6 +173,14 @@ Small async and caching utilities.
 `NumberObj`, `NumberObjObj`, `StringObj`, `StringObjObj`, `BooleanObj`, `SetupData`,
 `DoubleNumbers`, `ForecastInput`, `DateString`, `DateStringAll` and `DatePeriodString`
 are exported for TypeScript consumers.
+
+## Architecture
+
+The dependency map is published by GitHub Pages from the `docs/` directory at
+[degreesign.github.io/ds_utils/architecture.html](https://degreesign.github.io/ds_utils/architecture.html):
+one self-contained page with no server or build step. It shows every module in
+dependency order, the build, call and type relations between the helpers, the forecast
+path end to end, and the cache-freshness states.
 
 ## FAQ
 **What is DegreeSign Utils SDK?**
